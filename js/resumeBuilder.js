@@ -49,7 +49,7 @@ var bio = {
 		"email" : "alanna.malicdem@gmail.com",
 		"github" : "amalicdem1",
 		"twitter" : "alannaxbanana",
-		"bioLocation" : "Los Angeles, CA"
+		"location" : "Los Angeles, CA"
 	},
 	"skills" : [
 		"web development", "design", "problem solving", "eating"
@@ -124,7 +124,7 @@ bio.display = function() {
 	var email = HTMLemail.replace("%data%", bio.contacts.email);
 	var github = HTMLgithub.replace("%data%", bio.contacts.github);
 	var twitter = HTMLtwitter.replace("%data%", bio.contacts.twitter);
-	var bioLocation = HTMLlocation.replace("%data%", bio.contacts.bioLocation);
+	var bioLocation = HTMLlocation.replace("%data%", bio.contacts.location);
 	var allContacts = mobile + email + github + twitter + bioLocation;
 
 	$("#topContacts").append(allContacts);
