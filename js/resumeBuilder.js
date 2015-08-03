@@ -35,7 +35,7 @@ var projects = {
 			"title" : "Online Resume",
 			"dates" : "July 2015",
 			"description" : "Created an online resume",
-			"images" : ["https://placekitten.com/g/200/300"]
+			"images" : ["images/resume.png"]
 		}
 	]
 }
